@@ -7,7 +7,7 @@
 | Download *.jar* | *coming soon* |
 
 ## Overview
-| Day | Status |
+| Day | State |
 |:---:|:---:|
 | **1**  | ❄ |
 
