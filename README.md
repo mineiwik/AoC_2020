@@ -17,4 +17,4 @@
 |:---|:---:|
 |  All parts solved | 🌟 |
 | First part solved | ⛄ |
-|   Not solved yet  | ❄ |
+|  Both solved yet  | ❄ |
