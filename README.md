@@ -1,2 +1,20 @@
-# AoC_2020
-Advent of Code 2020
+# Advent of Code 2020
+## General
+|||
+|:---|:---|
+|     Language    |      Java     |
+|   JDK version   |     11.0.9    |
+| Download *.jar* | *coming soon* |
+
+## Overview
+| Day | Status |
+|:---:|:---:|
+| **1**  | ❄ |
+
+**Legend**:
+
+| Description | Emoji |
+|:---|:---:|
+|  All parts solved | 🌟 |
+| First part solved | ⛄ |
+|   Not solved yet  | ❄ |
