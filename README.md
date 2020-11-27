@@ -15,6 +15,6 @@
 
 | Description | Emoji |
 |:---|:---:|
-|  All parts solved | 🌟 |
+| Both parts solved | 🌟 |
 | First part solved | ⛄ |
-|  Both solved yet  | ❄ |
+|   Not solved yet  | ❄ |
