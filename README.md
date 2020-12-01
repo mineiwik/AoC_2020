@@ -9,7 +9,7 @@
 ## Overview
 | Day | State |
 |:---:|:---:|
-| **1**  | ❄ |
+| **[1](src/main/src/mineiwik.AoC_2020/Day1.java)**  | 🌟 |
 
 **Legend**:
 
