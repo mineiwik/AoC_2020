@@ -58,7 +58,7 @@ public class Day1 extends Day {
     public String secondStar() {
         // EDIT: Improved this algorithm to have a complexity of O(n^2)
         // numbers must be sorted (with merge sort the time complexity is O(n*log(n)))
-        // Therefore the total time complexity from sorting to finding the two numbers is O(n^2)
+        // Therefore the total time complexity from sorting to finding the triplet is O(n^2)
 
         int left, right;
 
