@@ -3,7 +3,8 @@
 | Day | State |
 |:---:|:---:|
 | **[1](src/main/src/mineiwik.AoC_2020/Day1.java)**  | 🌟 |
-| **2**  | ❄ |
+| **[2](src/main/src/mineiwik.AoC_2020/Day2.java)**  | 🌟 |
+| **3**  | ❄ |
 
 **Legend**:
 
