@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         System.out.print("\033[H\033[2J");
         System.out.flush();
-        System.out.println(String.format("%sAdvent %sof %sCode %s2020%s\n", ANSI_GREEN, ANSI_RED, ANSI_GREEN, ANSI_RED, ANSI_RESET));
+        System.out.printf("%sAdvent %sof %sCode %s2020%s\n%n", ANSI_GREEN, ANSI_RED, ANSI_GREEN, ANSI_RED, ANSI_RESET);
         (new Day1()).run();
         (new Day2()).run();
         (new Day3()).run();

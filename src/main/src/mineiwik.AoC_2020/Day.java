@@ -12,19 +12,19 @@ public abstract class Day {
     public abstract String secondStar();
 
     public void run() {
-        System.out.println(String.format("%sRunning %s%s", ANSI_GREEN, this.getClass().getName(), ANSI_RESET));
+        System.out.printf("%sRunning %s%s%n", ANSI_GREEN, this.getClass().getName(), ANSI_RESET);
 
         Instant start1 = Instant.now();
-        System.out.println(String.format("%s" + this.firstStar() + "%s", ANSI_YELLOW, ANSI_RESET));
+        System.out.printf("%s" + this.firstStar() + "%s%n", ANSI_YELLOW, ANSI_RESET);
         Instant end1 = Instant.now();
         long runtimePart1 = Duration.between(start1, end1).toMillis();
-        System.out.println(String.format("Part %s1%s took %d ms", ANSI_YELLOW, ANSI_RESET, runtimePart1));
+        System.out.printf("Part %s1%s took %d ms%n", ANSI_YELLOW, ANSI_RESET, runtimePart1);
 
         Instant start2 = Instant.now();
-        System.out.println(String.format("%s" + this.secondStar() + "%s", ANSI_YELLOW, ANSI_RESET));
+        System.out.printf("%s" + this.secondStar() + "%s%n", ANSI_YELLOW, ANSI_RESET);
         Instant end2 = Instant.now();
         long runtimePart2 = Duration.between(start2, end2).toMillis();
-        System.out.println(String.format("Part %s2%s took %d ms", ANSI_YELLOW, ANSI_RESET, runtimePart2));
-        System.out.println(String.format("\n%s", ANSI_RESET));
+        System.out.printf("Part %s2%s took %d ms%n", ANSI_YELLOW, ANSI_RESET, runtimePart2);
+        System.out.printf("\n%s%n", ANSI_RESET);
     }
 }

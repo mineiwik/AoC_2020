@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 2 - Password Philosophy
@@ -17,7 +18,7 @@ public class Day2 extends Day {
     Day2() throws IOException {
         String fileName = "day_2_input.txt";
         ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(fileName).getFile());
+        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
 
         String input;
         if (file.exists()){

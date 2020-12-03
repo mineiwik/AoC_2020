@@ -5,28 +5,28 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 1 - Report Repair
  */
 public class Day1 extends Day {
 
-    private final String input;
-    private final String[] lines;
     private final int size;
-    private ArrayList<Integer> numbers;
+    private final ArrayList<Integer> numbers;
 
     Day1() throws IOException {
         String fileName = "day_1_input.txt";
         ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(fileName).getFile());
+        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
 
+        String input;
         if (file.exists()){
             //Read File Content
             input = new String(Files.readAllBytes(file.toPath()));
         } else input = "";
 
-        lines = input.split(System.getProperty("line.separator"));
+        String[] lines = input.split(System.getProperty("line.separator"));
 
         numbers = new ArrayList<Integer>();
         for (String line : lines) {
