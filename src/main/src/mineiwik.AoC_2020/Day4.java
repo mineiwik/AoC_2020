@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Objects;
 
 /*
- * Advent of Code 2020 - Day 4 - Toboggan Trajectory
+ * Advent of Code 2020 - Day 4 - Passport Processing
  */
 public class Day4 extends Day {
 
