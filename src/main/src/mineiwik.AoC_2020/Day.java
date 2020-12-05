@@ -1,7 +1,11 @@
 package mineiwik.AoC_2020;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.time.Instant;
 import java.time.Duration;
+import java.util.Objects;
 
 public abstract class Day {
     public static final String ANSI_YELLOW = "\u001B[33m";
@@ -10,6 +14,19 @@ public abstract class Day {
 
     public abstract String firstStar();
     public abstract String secondStar();
+
+    public final String input;
+
+    protected Day(int day) throws IOException {
+        String fileName = "day_" + day + "_input.txt";
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
+
+        if (file.exists()){
+            //Read File Content
+            input = new String(Files.readAllBytes(file.toPath()));
+        } else input = "";
+    }
 
     public void run() {
         System.out.printf("%sRunning %s%s%n", ANSI_GREEN, this.getClass().getName(), ANSI_RESET);

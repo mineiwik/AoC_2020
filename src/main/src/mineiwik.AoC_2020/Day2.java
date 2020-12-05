@@ -1,10 +1,7 @@
 package mineiwik.AoC_2020;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 2 - Password Philosophy
@@ -15,26 +12,14 @@ public class Day2 extends Day {
     private int sum, first, last;
     private char letter;
 
-    Day2() throws IOException {
-        String fileName = "day_2_input.txt";
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
-
-        String input;
-        if (file.exists()){
-            //Read File Content
-            input = new String(Files.readAllBytes(file.toPath()));
-        } else input = "";
-
-        String[] lines = input.split(System.getProperty("line.separator"));
-
-        attempts = new ArrayList<String[]>();
-
+    Day2(int day) throws IOException {
+        super(day);
+        String[] lines = input.split("\\r?\\n");
+        attempts = new ArrayList<>();
         for (String line: lines){
             String[] elements = line.split(" ");
             attempts.add(elements);
         }
-
         sum = 0;
     }
 

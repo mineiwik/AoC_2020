@@ -1,11 +1,8 @@
 package mineiwik.AoC_2020;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 4 - Passport Processing
@@ -16,18 +13,8 @@ public class Day4 extends Day {
 
     private final ArrayList<HashMap<String,String>> maps = new ArrayList<>();
 
-    Day4() throws IOException {
-        String fileName = "day_4_input.txt";
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
-
-        String input;
-
-        if (file.exists()){
-            //Read File Content
-            input = (new String(Files.readAllBytes(file.toPath())));
-        } else input = "";
-
+    Day4(int day) throws IOException {
+        super(day);
         //Split input into chunks of possible passports
         String[] lines = input.split("\\n\\s*\\n");
 

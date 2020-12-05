@@ -12,9 +12,14 @@ public class Main {
         System.out.print("\033[H\033[2J");
         System.out.flush();
         System.out.printf("%sAdvent %sof %sCode %s2020%s\n%n", ANSI_GREEN, ANSI_RED, ANSI_GREEN, ANSI_RED, ANSI_RESET);
-        (new Day1()).run();
-        (new Day2()).run();
-        (new Day3()).run();
-        (new Day4()).run();
+        try {
+            (new Day1(1)).run();
+            (new Day2(2)).run();
+            (new Day3(3)).run();
+            (new Day4(4)).run();
+            (new Day5(5)).run();
+        } catch (IOException e){
+            throw new IOException(e);
+        }
     }
 }

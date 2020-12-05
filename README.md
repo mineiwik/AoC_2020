@@ -6,7 +6,8 @@
 | **[2](src/main/src/mineiwik.AoC_2020/Day2.java)**  | 🌟 |
 | **[3](src/main/src/mineiwik.AoC_2020/Day3.java)**  | 🌟 |
 | **[4](src/main/src/mineiwik.AoC_2020/Day4.java)**  | 🌟 |
-| **5**  | ❄ |
+| **[5](src/main/src/mineiwik.AoC_2020/Day5.java)**  | 🌟 |
+| **6**  | ❄ |
 
 **Legend**:
 

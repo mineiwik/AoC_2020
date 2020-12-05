@@ -1,30 +1,17 @@
 package mineiwik.AoC_2020;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 3 - Toboggan Trajectory
  */
 public class Day3 extends Day {
 
-    private final String[] lines;
+    String[] lines;
 
-    Day3() throws IOException {
-        String fileName = "day_3_input.txt";
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
-
-        String input;
-
-        if (file.exists()){
-            //Read File Content
-            input = (new String(Files.readAllBytes(file.toPath())));
-        } else input = "";
-
-        lines = input.split(System.getProperty("line.separator"));
+    Day3(int day) throws IOException {
+        super(day);
+        lines = input.split("\\r?\\n");
     }
 
     private long slope (int down, int right){

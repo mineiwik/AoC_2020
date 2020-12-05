@@ -1,11 +1,8 @@
 package mineiwik.AoC_2020;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Objects;
 
 /*
  * Advent of Code 2020 - Day 1 - Report Repair
@@ -15,27 +12,16 @@ public class Day1 extends Day {
     private final int size;
     private final ArrayList<Integer> numbers;
 
-    Day1() throws IOException {
-        String fileName = "day_1_input.txt";
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());
-
-        String input;
-        if (file.exists()){
-            //Read File Content
-            input = new String(Files.readAllBytes(file.toPath()));
-        } else input = "";
-
-        String[] lines = input.split(System.getProperty("line.separator"));
-
-        numbers = new ArrayList<Integer>();
+    Day1(int day) throws IOException {
+        super(day);
+        String[] lines = input.split("\\r?\\n");
+        numbers = new ArrayList<>();
         for (String line : lines) {
             numbers.add(Integer.parseInt(line));
         }
 
         Collections.sort(numbers);
         size = numbers.size();
-
     }
 
     public String firstStar() {
