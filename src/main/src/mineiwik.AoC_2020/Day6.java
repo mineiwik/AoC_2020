@@ -36,10 +36,10 @@ public class Day6 extends Day {
     public String secondStar() {
         int sum = 0;
         for (String group : groups) {
-            String[] members = group.split("\\r?\\n");
-            HashSet<Character> result = new HashSet<>(getSet(members[0].trim()));
+            String[] members = group.trim().split("\\r?\\n");
+            HashSet<Character> result = new HashSet<>(getSet(members[0]));
             for (String member : members) {
-                result.retainAll(getSet(member.trim()));
+                result.retainAll(getSet(member));
             }
             sum += result.size();
         }
