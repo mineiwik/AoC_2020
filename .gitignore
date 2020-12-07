@@ -3,6 +3,7 @@
 *.iml
 
 out/
+src/main/resources/
 
 # Compiled class file
 *.class
