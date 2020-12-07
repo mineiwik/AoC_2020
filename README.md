@@ -8,7 +8,8 @@
 | **[4](src/main/src/mineiwik.AoC_2020/Day4.java)**  | 🌟 |
 | **[5](src/main/src/mineiwik.AoC_2020/Day5.java)**  | 🌟 |
 | **[6](src/main/src/mineiwik.AoC_2020/Day6.java)**  | 🌟 |
-| **7**  | ❄ |
+| **[7](src/main/src/mineiwik.AoC_2020/Day7.java)**  | 🌟 |
+| **8**  | ❄ |
 
 **Legend**:
 
