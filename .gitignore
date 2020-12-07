@@ -3,7 +3,8 @@
 *.iml
 
 out/
-src/main/resources/
+*.txt
+!day_NUMBER_input.txt
 
 # Compiled class file
 *.class
