@@ -21,6 +21,7 @@ public class Main {
             (new Day6(6)).run();
             (new Day7(7)).run();
             (new Day8(8)).run();
+            (new Day9(9)).run();
         } catch (IOException e){
             throw new IOException(e);
         }
