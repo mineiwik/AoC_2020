@@ -9,12 +9,12 @@ import java.util.List;
 /*
  * Advent of Code 2020 - Day 9 - Encoding Error
  */
-public class Day9 extends Day {
+public class Day09 extends Day {
 
     private final long[] numbers;
     private final int PRE_NUMS = 25;
 
-    Day9(int day) throws IOException {
+    Day09(String day) throws IOException {
         super(day);
         List<String> lines = Arrays.asList(input.split("\\r?\\n"));
         numbers = new long[lines.size()];

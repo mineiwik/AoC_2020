@@ -6,11 +6,11 @@ import java.util.HashSet;
 /*
  * Advent of Code 2020 - Day 6 - Custom Customs
  */
-public class Day6 extends Day {
+public class Day06 extends Day {
 
     private final String[] groups;
 
-    Day6(int day) throws IOException {
+    Day06(String day) throws IOException {
         super(day);
         //Split input into groups
         groups = input.split("\\n\\s*\\n");

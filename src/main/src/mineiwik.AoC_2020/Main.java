@@ -13,16 +13,18 @@ public class Main {
         System.out.flush();
         System.out.printf("%sAdvent %sof %sCode %s2020%s\n%n", ANSI_GREEN, ANSI_RED, ANSI_GREEN, ANSI_RED, ANSI_RESET);
         try {
-            (new Day1(1)).run();
-            (new Day2(2)).run();
-            (new Day3(3)).run();
-            (new Day4(4)).run();
-            (new Day5(5)).run();
-            (new Day6(6)).run();
-            (new Day7(7)).run();
-            (new Day8(8)).run();
-            (new Day9(9)).run();
-            (new Day10(10)).run();
+            (new Day01("01")).run();
+            (new Day02("02")).run();
+            (new Day03("03")).run();
+            (new Day04("04")).run();
+            (new Day05("05")).run();
+            (new Day06("06")).run();
+            (new Day07("07")).run();
+            (new Day08("08")).run();
+            (new Day09("09")).run();
+            (new Day10("10")).run();
+            (new Day11("11")).run();
+            (new Day12("12")).run();
         } catch (IOException e){
             throw new IOException(e);
         }

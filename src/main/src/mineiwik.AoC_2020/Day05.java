@@ -7,11 +7,11 @@ import java.util.Collections;
 /*
  * Advent of Code 2020 - Day 5 - Binary Boarding
  */
-public class Day5 extends Day {
+public class Day05 extends Day {
 
     private final ArrayList<Integer> seats = new ArrayList<>();
 
-    Day5(int day) throws IOException {
+    Day05(String day) throws IOException {
         super(day);
         String[] lines = input.split("\\r?\\n");
         for(String line : lines){

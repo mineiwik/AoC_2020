@@ -8,11 +8,11 @@ import java.util.List;
 /*
  * Advent of Code 2020 - Day 8 - Handheld Halting
  */
-public class Day8 extends Day {
+public class Day08 extends Day {
 
     private final Handheld console;
 
-    Day8(int day) throws IOException {
+    Day08(String day) throws IOException {
         super(day);
         List<String> lines = Arrays.asList(input.split("\\r?\\n"));
         console = new Handheld(lines);

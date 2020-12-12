@@ -6,13 +6,13 @@ import java.util.HashMap;
 /*
  * Advent of Code 2020 - Day 7 - Handy Haversacks
  */
-public class Day7 extends Day {
+public class Day07 extends Day {
 
     private final String[] rules;
     private final HashMap<String, String[]>  regulations;
     private final String MY_BAG = "shiny gold";
 
-    Day7(int day) throws IOException {
+    Day07(String day) throws IOException {
         super(day);
         rules = input.split("\\r?\\n");
 

@@ -7,13 +7,13 @@ import java.util.HashMap;
 /*
  * Advent of Code 2020 - Day 4 - Passport Processing
  */
-public class Day4 extends Day {
+public class Day04 extends Day {
 
     private final String[] required = {"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"};
 
     private final ArrayList<HashMap<String,String>> maps = new ArrayList<>();
 
-    Day4(int day) throws IOException {
+    Day04(String day) throws IOException {
         super(day);
         //Split input into chunks of possible passports
         String[] lines = input.split("\\n\\s*\\n");

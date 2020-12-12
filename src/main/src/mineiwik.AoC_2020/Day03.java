@@ -5,11 +5,11 @@ import java.io.IOException;
 /*
  * Advent of Code 2020 - Day 3 - Toboggan Trajectory
  */
-public class Day3 extends Day {
+public class Day03 extends Day {
 
     String[] lines;
 
-    Day3(int day) throws IOException {
+    Day03(String day) throws IOException {
         super(day);
         lines = input.split("\\r?\\n");
     }

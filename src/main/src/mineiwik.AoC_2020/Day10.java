@@ -11,7 +11,7 @@ public class Day10 extends Day {
 
     private final ArrayList<Integer> adapters;
 
-    Day10(int day) throws IOException {
+    Day10(String day) throws IOException {
         super(day);
         String[] lines = input.split("\\r?\\n");
         adapters = new ArrayList<>();

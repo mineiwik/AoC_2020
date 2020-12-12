@@ -6,13 +6,13 @@ import java.util.ArrayList;
 /*
  * Advent of Code 2020 - Day 2 - Password Philosophy
  */
-public class Day2 extends Day {
+public class Day02 extends Day {
 
     private final ArrayList<String[]> attempts;
     private int sum, first, last;
     private char letter;
 
-    Day2(int day) throws IOException {
+    Day02(String day) throws IOException {
         super(day);
         String[] lines = input.split("\\r?\\n");
         attempts = new ArrayList<>();

@@ -7,12 +7,12 @@ import java.util.Collections;
 /*
  * Advent of Code 2020 - Day 1 - Report Repair
  */
-public class Day1 extends Day {
+public class Day01 extends Day {
 
     private final int size;
     private final ArrayList<Integer> numbers;
 
-    Day1(int day) throws IOException {
+    Day01(String day) throws IOException {
         super(day);
         String[] lines = input.split("\\r?\\n");
         numbers = new ArrayList<>();

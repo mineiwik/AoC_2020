@@ -17,7 +17,7 @@ public abstract class Day {
 
     public final String input;
 
-    protected Day(int day) throws IOException {
+    protected Day(String day) throws IOException {
         String fileName = "day_" + day + "_input.txt";
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(Objects.requireNonNull(classLoader.getResource(fileName)).getFile());

@@ -2,17 +2,19 @@
 ## Overview
 | Day | State |
 |:---:|:---:|
-| **[1](src/main/src/mineiwik.AoC_2020/Day1.java)**  | 🌟 |
-| **[2](src/main/src/mineiwik.AoC_2020/Day2.java)**  | 🌟 |
-| **[3](src/main/src/mineiwik.AoC_2020/Day3.java)**  | 🌟 |
-| **[4](src/main/src/mineiwik.AoC_2020/Day4.java)**  | 🌟 |
-| **[5](src/main/src/mineiwik.AoC_2020/Day5.java)**  | 🌟 |
-| **[6](src/main/src/mineiwik.AoC_2020/Day6.java)**  | 🌟 |
-| **[7](src/main/src/mineiwik.AoC_2020/Day7.java)**  | 🌟 |
-| **[8](src/main/src/mineiwik.AoC_2020/Day8.java)**  | 🌟 |
-| **[9](src/main/src/mineiwik.AoC_2020/Day9.java)**  | 🌟 |
+| **[1](src/main/src/mineiwik.AoC_2020/Day01.java)**  | 🌟 |
+| **[2](src/main/src/mineiwik.AoC_2020/Day02.java)**  | 🌟 |
+| **[3](src/main/src/mineiwik.AoC_2020/Day03.java)**  | 🌟 |
+| **[4](src/main/src/mineiwik.AoC_2020/Day04.java)**  | 🌟 |
+| **[5](src/main/src/mineiwik.AoC_2020/Day05.java)**  | 🌟 |
+| **[6](src/main/src/mineiwik.AoC_2020/Day06.java)**  | 🌟 |
+| **[7](src/main/src/mineiwik.AoC_2020/Day07.java)**  | 🌟 |
+| **[8](src/main/src/mineiwik.AoC_2020/Day08.java)**  | 🌟 |
+| **[9](src/main/src/mineiwik.AoC_2020/Day09.java)**  | 🌟 |
 | **[10](src/main/src/mineiwik.AoC_2020/Day10.java)**  | 🌟 |
-| **11**  | ❄ |
+| **[11](src/main/src/mineiwik.AoC_2020/Day11.java)**  | 🌟 |
+| **[12](src/main/src/mineiwik.AoC_2020/Day12.java)**  | 🌟 |
+| **13**  | ❄ |
 
 **Legend**:
 
