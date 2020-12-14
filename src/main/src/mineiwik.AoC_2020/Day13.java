@@ -1,9 +1,6 @@
 package mineiwik.AoC_2020;
 
 import java.io.IOException;
-import static java.util.stream.IntStream.range;
-import static java.lang.Long.parseLong;
-import static java.util.Arrays.stream;
 
 /*
  * Advent of Code 2020 - Day 13 - Shuttle Search
