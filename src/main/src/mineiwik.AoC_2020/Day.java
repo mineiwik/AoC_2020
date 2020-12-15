@@ -31,17 +31,19 @@ public abstract class Day {
     public void run() {
         System.out.printf("%sRunning %s%s%n", ANSI_GREEN, this.getClass().getName(), ANSI_RESET);
 
-        Instant start1 = Instant.now();
+        long timerStart = System.nanoTime();
         System.out.printf("%s" + this.firstStar() + "%s%n", ANSI_YELLOW, ANSI_RESET);
-        Instant end1 = Instant.now();
-        long runtimePart1 = Duration.between(start1, end1).toMillis();
-        System.out.printf("Part %s1%s took %d ms%n", ANSI_YELLOW, ANSI_RESET, runtimePart1);
+        long timeSpent = (System.nanoTime() - timerStart) / 1000;
+        if(timeSpent < 1000) System.out.printf("Part %s1%s took %d µs%n", ANSI_YELLOW, ANSI_RESET, timeSpent);
+        else if(timeSpent < 1000000) System.out.printf("Part %s1%s took %f ms%n", ANSI_YELLOW, ANSI_RESET, timeSpent / 1000.0);
+        else System.out.printf("Part %s1%s took %f s%n", ANSI_YELLOW, ANSI_RESET, timeSpent / 1000000.0);
 
-        Instant start2 = Instant.now();
+        timerStart = System.nanoTime();
         System.out.printf("%s" + this.secondStar() + "%s%n", ANSI_YELLOW, ANSI_RESET);
-        Instant end2 = Instant.now();
-        long runtimePart2 = Duration.between(start2, end2).toMillis();
-        System.out.printf("Part %s2%s took %d ms%n", ANSI_YELLOW, ANSI_RESET, runtimePart2);
+        timeSpent = (System.nanoTime() - timerStart) / 1000;
+        if(timeSpent < 1000) System.out.printf("Part %s2%s took %d µs%n", ANSI_YELLOW, ANSI_RESET, timeSpent);
+        else if(timeSpent < 1000000) System.out.printf("Part %s2%s took %f ms%n", ANSI_YELLOW, ANSI_RESET, timeSpent / 1000.0);
+        else System.out.printf("Part %s2%s took %f s%n", ANSI_YELLOW, ANSI_RESET, timeSpent / 1000000.0);
         System.out.printf("\n%s%n", ANSI_RESET);
     }
 }
