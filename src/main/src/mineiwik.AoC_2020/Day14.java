@@ -2,7 +2,6 @@ package mineiwik.AoC_2020;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Iterator;
 
 /*
  * Advent of Code 2020 - Day 14 - Docking Data
@@ -10,7 +9,6 @@ import java.util.Iterator;
 public class Day14 extends Day {
 
     private final String[] program;
-    private HashMap<Integer, Long> memory;
 
     Day14(String day) throws IOException {
         super(day);
@@ -19,11 +17,11 @@ public class Day14 extends Day {
     }
 
     public String firstStar() {
+        HashMap<Integer, Long> memory = new HashMap<>();
         String mask = "";
         int address;
         long value;
         String[] current;
-        memory = new HashMap<>();
         for (String task : program) {
             if (task.startsWith("mask")) {
                 mask = task.split(" = ")[1];
