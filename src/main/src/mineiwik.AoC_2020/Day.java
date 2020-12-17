@@ -3,8 +3,6 @@ package mineiwik.AoC_2020;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.time.Instant;
-import java.time.Duration;
 import java.util.Objects;
 
 public abstract class Day {

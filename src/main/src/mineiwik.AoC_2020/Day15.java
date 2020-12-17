@@ -3,6 +3,7 @@ package mineiwik.AoC_2020;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 /*
  * Advent of Code 2020 - Day 15 - Rambunctious Recitation
@@ -29,7 +30,7 @@ public class Day15 extends Day {
     }
 
     private int getLatestNumberSpoken(int endTurn) {
-        HashMap<Integer, Integer> memory = new HashMap<>();
+        Map<Integer, Integer> memory = new HashMap<>();
 
         int turn = 1;
 
