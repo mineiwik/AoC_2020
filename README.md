@@ -19,7 +19,8 @@
 | **[15](src/main/src/mineiwik.AoC_2020/Day15.java)**  | 🌟 |
 | **[16](src/main/src/mineiwik.AoC_2020/Day16.java)**  | 🌟 |
 | **[17](src/main/src/mineiwik.AoC_2020/Day17.java)**  | 🌟 |
-| **18**  | ❄ |
+| **[18](src/main/src/mineiwik.AoC_2020/Day18.java)**  | 🌟 |
+| **19**  | ❄ |
 
 **Legend**:
 

@@ -30,6 +30,7 @@ public class Main {
             (new Day15("15")).run();
             (new Day16("16")).run();
             (new Day17("17")).run();
+            (new Day18("18")).run();
         } catch (IOException e){
             throw new IOException(e);
         }
