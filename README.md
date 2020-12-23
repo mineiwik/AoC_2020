@@ -23,7 +23,9 @@
 | **19**  | ❄ |
 | **20**  | ❄ |
 | **[21](src/main/src/mineiwik.AoC_2020/Day21.java)**  | 🌟 |
-| **22**  | ❄ |
+| **[22](src/main/src/mineiwik.AoC_2020/Day22.java)**  | ⛄ |
+| **[23](src/main/src/mineiwik.AoC_2020/Day23.java)**  | 🌟 |
+| **24**  | ❄ |
 
 **Legend**:
 
